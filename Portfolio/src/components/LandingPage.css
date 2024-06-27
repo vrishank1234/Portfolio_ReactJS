@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Modak&display=swap');
+
+.FirstImage img{
+    height: 700px;
+    width:420px;
+    justify-content: center;
+    
+}
+.Portfolio p{
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 128px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    transition: color 0.3s ease;
+}
+.Portfolio p:hover {
+    color: #7f48e6e1;
+  }
+.Landing {
+    background: linear-gradient(to top, #FFFFFF, #D4CECE);    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Name p{
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 128px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    letter-spacing: 0.50cap;
+    color: #2a2a2a;
+    opacity: 0%;
+    transition: color 0.3s ease;
+    transition:  opacity 0.3s ;
+
+
+}
+.Name p:hover{
+    color: #060606e1;
+    opacity: 100%;
+
+}
+

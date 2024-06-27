@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    width: 100%;
+
+  }
+    
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    font-family: "Michroma", sans-serif;
+  }
+  
+  .navbar-links li {
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    color: #151414;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+  }
+  
+  .navbar-links a:hover {
+    color: #7f48e6e1;
+  }
+  
